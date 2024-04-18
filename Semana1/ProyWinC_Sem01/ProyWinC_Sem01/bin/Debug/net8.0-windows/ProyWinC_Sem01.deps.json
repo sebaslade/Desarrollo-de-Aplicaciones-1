@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProyWinC_Sem01/1.0.0": {
+        "runtime": {
+          "ProyWinC_Sem01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProyWinC_Sem01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
