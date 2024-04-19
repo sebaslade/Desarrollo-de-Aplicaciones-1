@@ -16,3 +16,5 @@ C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem
 C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ref\ProyWinC_Sem02.dll
 C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.Properties.Resources.resources
 C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.Form2.resources
+C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.frmCombos.resources
+C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.sourcelink.json
