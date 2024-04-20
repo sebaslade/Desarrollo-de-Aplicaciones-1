@@ -293,6 +293,7 @@
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(291, 23);
             txtApellido.TabIndex = 11;
+            txtApellido.TextChanged += txtApellido_TextChanged;
             // 
             // txtNombre
             // 
@@ -300,6 +301,7 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(291, 23);
             txtNombre.TabIndex = 12;
+            txtNombre.TextChanged += txtApellido_TextChanged;
             // 
             // txtDni
             // 

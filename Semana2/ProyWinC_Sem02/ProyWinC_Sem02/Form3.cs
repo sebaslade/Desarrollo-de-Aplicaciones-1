@@ -20,12 +20,22 @@ namespace ProyWinC_Sem02
         private void txtDni_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Validación de los caracteres sean digitos
-            if(e.KeyChar != 8) 
+            if (e.KeyChar != 8)
             {
-                if (char.IsDigit(e.KeyChar))
+                if (char.IsDigit(e.KeyChar) == false)
                 {
                     e.Handled = true;
                 }
+            }
+        }
+
+        private void txtApellido_TextChanged(object sender, EventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+            if(textBox != null)
+            {
+                textBox.Text = textBox.Text.ToUpper();
+                textBox.SelectionStart = textBox.Text.Length;
             }
         }
     }
