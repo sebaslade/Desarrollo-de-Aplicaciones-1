@@ -19,3 +19,4 @@ C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem
 C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.frmCombos.resources
 C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.sourcelink.json
 C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.Form3.resources
+C:\Isil\4_CICLO\Desarrollo de Aplicaciones 1\Semana2\ProyWinC_Sem02\ProyWinC_Sem02\obj\Debug\net8.0-windows\ProyWinC_Sem02.frmPlanillas_Solucion.resources

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyWinC_Sem02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b33d302a0a0dd6bd42391085724c520b469d36d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cf9e0d1186e12d0f518c258c430ab075bd90170")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyWinC_Sem02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyWinC_Sem02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
