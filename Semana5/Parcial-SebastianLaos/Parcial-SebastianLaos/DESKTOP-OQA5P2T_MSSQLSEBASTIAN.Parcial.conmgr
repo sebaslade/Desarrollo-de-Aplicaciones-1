@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-OQA5P2T_MSSQLSEBASTIAN.Parcial"
+  DTS:DTSID="{9CC6F81D-69C0-4C2B-A1F0-30CD29F2780D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-OQA5P2T\MSSQLSEBASTIAN;Initial Catalog=Parcial;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Parcial-SebastianLaos-{9CC6F81D-69C0-4C2B-A1F0-30CD29F2780D}DESKTOP-OQA5P2T\MSSQLSEBASTIAN.Parcial;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

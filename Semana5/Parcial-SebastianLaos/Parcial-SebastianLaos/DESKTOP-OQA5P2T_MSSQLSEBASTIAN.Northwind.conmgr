@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-OQA5P2T_MSSQLSEBASTIAN.Northwind"
+  DTS:DTSID="{F2E93A9D-FE1B-4EB7-A1EC-EE1D82F21641}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-OQA5P2T\MSSQLSEBASTIAN;Initial Catalog=Northwind;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Parcial-SebastianLaos-{F2E93A9D-FE1B-4EB7-A1EC-EE1D82F21641}DESKTOP-OQA5P2T\MSSQLSEBASTIAN.Northwind;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
