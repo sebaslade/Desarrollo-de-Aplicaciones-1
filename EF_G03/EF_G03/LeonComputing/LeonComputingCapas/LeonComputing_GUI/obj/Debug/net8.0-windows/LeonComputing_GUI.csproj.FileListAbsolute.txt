@@ -1,0 +1,129 @@
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.exe
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.dll.config
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.deps.json
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.runtimeconfig.json
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_ADO.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BE.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BL.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BE.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BL.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_ADO.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.AssemblyReference.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.Form1.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.GenerateResource.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AssemblyInfoInputs.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AssemblyInfo.cs
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.CoreCompileInputs.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComp.A3E8B3C8.Up2Date
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\refint\LeonComputing_GUI.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.genruntimeconfig.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\ref\LeonComputing_GUI.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.frmLogin.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.MDIPrincipal.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.Properties.Resources.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan01.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan02.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan03.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan01.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan02.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan03.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan01.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan02.resources
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.exe
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.dll.config
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.deps.json
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.runtimeconfig.json
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_ADO.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BL.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BL.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_ADO.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.AssemblyReference.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan01.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan02.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan01.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan02.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan01.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan02.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.Form1.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.frmLogin.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.MDIPrincipal.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.Properties.Resources.resources
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.GenerateResource.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AssemblyInfoInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AssemblyInfo.cs
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.CoreCompileInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComp.A3E8B3C8.Up2Date
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\refint\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.genruntimeconfig.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\ref\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.exe
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.dll.config
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.deps.json
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.runtimeconfig.json
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_GUI.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_ADO.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BL.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_BL.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\bin\Debug\net8.0-windows\LeonComputing_ADO.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.AssemblyReference.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan01.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan02.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AsociadoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan01.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan02.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.CursoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan01.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan02.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.EventoMan03.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.Form1.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.frmLogin.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.MDIPrincipal.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.Properties.Resources.resources
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.GenerateResource.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AssemblyInfoInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.AssemblyInfo.cs
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.csproj.CoreCompileInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComp.A3E8B3C8.Up2Date
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\refint\LeonComputing_GUI.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\LeonComputing_GUI.genruntimeconfig.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_GUI\obj\Debug\net8.0-windows\ref\LeonComputing_GUI.dll

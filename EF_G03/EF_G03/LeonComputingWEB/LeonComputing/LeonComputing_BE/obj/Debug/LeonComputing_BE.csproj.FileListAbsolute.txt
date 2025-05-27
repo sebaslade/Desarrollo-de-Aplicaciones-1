@@ -1,0 +1,6 @@
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_BE\bin\Debug\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_BE\bin\Debug\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_BE\obj\Debug\LeonComputing_BE.csproj.AssemblyReference.cache
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_BE\obj\Debug\LeonComputing_BE.csproj.CoreCompileInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_BE\obj\Debug\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_BE\obj\Debug\LeonComputing_BE.pdb

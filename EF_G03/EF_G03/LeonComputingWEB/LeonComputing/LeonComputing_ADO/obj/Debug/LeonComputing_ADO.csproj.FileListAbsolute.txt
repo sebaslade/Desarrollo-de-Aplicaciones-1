@@ -1,0 +1,14 @@
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\LeonComputing_ADO.dll.config
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\LeonComputing_ADO.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\LeonComputing_ADO.pdb
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\EntityFramework.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\EntityFramework.xml
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\obj\Debug\LeonComputing_ADO.csproj.AssemblyReference.cache
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\obj\Debug\LeonComputing_ADO.csproj.CoreCompileInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\obj\Debug\LeonComp.2D946C4C.Up2Date
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\obj\Debug\LeonComputing_ADO.dll
+C:\Users\mikea\OneDrive\Escritorio\LeonComputingWEB\LeonComputing\LeonComputing_ADO\obj\Debug\LeonComputing_ADO.pdb

@@ -1,0 +1,157 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url(/Images/fondoLeon1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    font-family: Poppins !important;
+    
+}
+
+.btn-success {
+    --bs-btn-bg: #1E434C;
+    --bs-btn-border-color: #1E434C;
+    --bs-btn-hover-bg: #212529;
+    --bs-btn-hover-border-color: #212529;
+}
+
+.padded {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.chart-container {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 20px;
+    border-radius: 10px; 
+   
+}
+.labelTitulo {
+    font-family: Poppins;
+    font-size: 15pt;
+    color: #1e434c;
+}
+
+.labelErrores {
+    font-family: Poppins;
+    font-size: 8pt;
+    font-weight: normal;
+    color: #FF0000;
+}
+
+.labelContenido {
+    font-family: Poppins;
+    font-size: 10pt;
+    color: #993366;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 1000000;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #aaa;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.overlayContent {
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    height: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .overlayContent h2 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .overlayContent img {
+        width: 120px;
+        display: block;
+        margin: 10px 0;
+    }
+
+
+.GriedView {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+    .GriedView th {
+        background-color: #1e434c;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid #ddd;
+        font-family: Poppins;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .GriedView td {
+        background-color: #f1f1f2;
+        padding: 5px;
+        border: 1px solid #ddd;
+        font-family: Poppins;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .GriedView .selected-row {
+        background-color: #CE5D5A;
+        font-family: Poppins;
+        color: white;
+        font-weight: bold;
+        font-weight: 300;
+    }
+
+    .GriedView .sorted-ascending {
+        background-color: #FBFBF2;
+        font-family: Poppins;
+        font-weight: 300;
+    }
+
+    .GriedView .sorted-descending {
+        background-color: #EAEAD3;
+        font-family: Poppins;
+        font-weight: 300;
+    }
+
+    .GriedView .pager {
+        background-color: #f1f1f2;
+        text-align: right;
+        padding: 10px;
+        border: 1px solid #ddd;
+        font-family: Poppins;
+        font-weight: 300;
+    }
+
+    .GriedView .footer {
+        background-color: #CCCC99;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ddd;
+        font-family: Poppins;
+        font-weight: 300;
+    }

@@ -1,0 +1,33 @@
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.deps.json
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.AssemblyInfoInputs.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.AssemblyInfo.cs
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.csproj.CoreCompileInputs.cache
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\refint\LeonComputing_BE.dll
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.pdb
+D:\Personal\ISIL\CICLO\DESARROLLO DE APPS\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\ref\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.deps.json
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.AssemblyInfoInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.AssemblyInfo.cs
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.csproj.CoreCompileInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\refint\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\Parcial_G03\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\ref\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.deps.json
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\bin\Debug\net8.0\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.AssemblyInfoInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.AssemblyInfo.cs
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.csproj.CoreCompileInputs.cache
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\refint\LeonComputing_BE.dll
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\LeonComputing_BE.pdb
+C:\Users\mikea\OneDrive\Escritorio\EP4_AllcaAllcca\LeonComputing\LeonComputingCapas\LeonComputing_BE\obj\Debug\net8.0\ref\LeonComputing_BE.dll

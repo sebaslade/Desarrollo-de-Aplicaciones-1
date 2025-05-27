@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeonComputingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tb_Asistencia_Socio">
+    <Key>
+      <PropertyRef Name="cod_asociado" />
+      <PropertyRef Name="id_evento" />
+    </Key>
+    <Property Name="cod_asociado" Type="nchar" MaxLength="4" Nullable="false" />
+    <Property Name="id_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tb_Asociado">
+    <Key>
+      <PropertyRef Name="cod_asociado" />
+    </Key>
+    <Property Name="cod_asociado" Type="nchar" MaxLength="4" Nullable="false" />
+    <Property Name="ape_paterno" Type="varchar" MaxLength="70" />
+    <Property Name="ape_materno" Type="varchar" MaxLength="70" />
+    <Property Name="nombres" Type="varchar" MaxLength="70" />
+    <Property Name="direccion" Type="varchar" MaxLength="70" />
+    <Property Name="fecha_ingreso" Type="date" />
+    <Property Name="dni" Type="varchar" MaxLength="8" />
+    <Property Name="tlf_domicilio" Type="varchar" MaxLength="10" />
+    <Property Name="tlf_celular" Type="varchar" MaxLength="9" />
+    <Property Name="correo" Type="varchar" MaxLength="70" />
+    <Property Name="fech_ult_capacitacion" Type="date" />
+    <Property Name="foto" Type="image" />
+    <Property Name="Id_Empresa" Type="int" />
+    <Property Name="Id_Ubigeo" Type="nchar" MaxLength="6" />
+    <Property Name="fecha_registro" Type="date" />
+    <Property Name="usuario_ult_modificacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha_ult_modificacion" Type="date" />
+    <Property Name="usuario_registro" Type="nvarchar" MaxLength="50" />
+    <Property Name="estado_aso" Type="int" />
+  </EntityType>
+  <EntityType Name="Tb_Curso">
+    <Key>
+      <PropertyRef Name="cod_curso" />
+    </Key>
+    <Property Name="cod_curso" Type="nchar" MaxLength="4" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="200" />
+    <Property Name="horas_teoria" Type="int" />
+    <Property Name="horas_practica" Type="int" />
+    <Property Name="nivel_dificultad" Type="varchar" MaxLength="20" />
+    <Property Name="comentarios" Type="varchar" MaxLength="300" />
+    <Property Name="IdEspecialidad" Type="int" />
+    <Property Name="fecha_registro" Type="date" />
+    <Property Name="usuario_registro" Type="nvarchar" MaxLength="50" />
+    <Property Name="usuario_ult_modificacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha_ult_modificacion" Type="date" />
+    <Property Name="estado_cur" Type="int" />
+  </EntityType>
+  <EntityType Name="Tb_Empresa">
+    <Key>
+      <PropertyRef Name="Id_Empresa" />
+    </Key>
+    <Property Name="Id_Empresa" Type="int" Nullable="false" />
+    <Property Name="Razon_Social" Type="varchar" MaxLength="255" />
+    <Property Name="Direccion" Type="varchar" MaxLength="255" />
+    <Property Name="Telefono1" Type="varchar" MaxLength="15" />
+    <Property Name="Telefono2" Type="varchar" MaxLength="15" />
+    <Property Name="UrlPagWeb" Type="varchar" MaxLength="255" />
+    <Property Name="Id_Ubigeo" Type="nchar" MaxLength="6" />
+    <Property Name="fecha_registro" Type="date" />
+    <Property Name="usuario_ult_modificacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha_ult_modificacion" Type="date" />
+    <Property Name="estado_emp" Type="int" />
+  </EntityType>
+  <EntityType Name="Tb_Especialidad">
+    <Key>
+      <PropertyRef Name="IdEspecialidad" />
+    </Key>
+    <Property Name="IdEspecialidad" Type="int" Nullable="false" />
+    <Property Name="DescEspecialidad" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Tb_Especialidad_Expositor">
+    <Key>
+      <PropertyRef Name="IdEspecialidad" />
+      <PropertyRef Name="Id_Expositor" />
+    </Key>
+    <Property Name="IdEspecialidad" Type="int" Nullable="false" />
+    <Property Name="Id_Expositor" Type="nchar" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tb_Evento">
+    <Key>
+      <PropertyRef Name="id_evento" />
+    </Key>
+    <Property Name="id_evento" Type="int" Nullable="false" />
+    <Property Name="Id_empresa" Type="int" />
+    <Property Name="fecha_inicio" Type="date" />
+    <Property Name="fecha_fin" Type="date" />
+    <Property Name="id_frecuencia" Type="int" />
+    <Property Name="id_turno" Type="int" />
+    <Property Name="presupuesto_requerido" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="direccion_evento" Type="varchar" MaxLength="100" />
+    <Property Name="cupos_programados" Type="int" />
+    <Property Name="Id_Expositor" Type="nchar" MaxLength="6" />
+    <Property Name="Id_Ubigeo" Type="nchar" MaxLength="6" />
+    <Property Name="cod_curso" Type="nchar" MaxLength="4" />
+    <Property Name="usuario_registro" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha_registro" Type="date" />
+    <Property Name="usuario_ult_modificacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha_ult_modificacion" Type="date" />
+    <Property Name="estado_eve" Type="int" />
+  </EntityType>
+  <EntityType Name="Tb_Expositor">
+    <Key>
+      <PropertyRef Name="Id_Expositor" />
+    </Key>
+    <Property Name="Id_Expositor" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="Apellido_materno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido_paterno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dirección" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Telefono" Type="char" MaxLength="25" Nullable="false" />
+    <Property Name="E_mail" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="DNI" Type="char" MaxLength="25" Nullable="false" />
+    <Property Name="Foto_Expositor" Type="varchar" MaxLength="200" />
+    <Property Name="Comentario" Type="varchar(max)" />
+    <Property Name="Id_Ubigeo" Type="nchar" MaxLength="6" />
+    <Property Name="fecha_registro" Type="date" />
+    <Property Name="usuario_ult_modificacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha_ult_modificacion" Type="date" />
+    <Property Name="estado_exp" Type="int" />
+  </EntityType>
+  <EntityType Name="Tb_Expositor_Empresa">
+    <Key>
+      <PropertyRef Name="Id_Expositor" />
+      <PropertyRef Name="Id_Empresa" />
+    </Key>
+    <Property Name="Id_Expositor" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="Id_Empresa" Type="int" Nullable="false" />
+    <Property Name="Fecha_inicio" Type="date" />
+    <Property Name="Fecha_finalizacion" Type="date" />
+    <Property Name="Cargo" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Tb_Ubigeo">
+    <Key>
+      <PropertyRef Name="Id_Ubigeo" />
+    </Key>
+    <Property Name="Id_Ubigeo" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="IdDepa" Type="nvarchar" MaxLength="255" />
+    <Property Name="IdProv" Type="nvarchar" MaxLength="255" />
+    <Property Name="IdDist" Type="nvarchar" MaxLength="255" />
+    <Property Name="Departamento" Type="nvarchar" MaxLength="255" />
+    <Property Name="Provincia" Type="nvarchar" MaxLength="255" />
+    <Property Name="Distrito" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Tb_Usuario">
+    <Key>
+      <PropertyRef Name="Login_Usuario" />
+    </Key>
+    <Property Name="Login_Usuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Pass_Usuario" Type="varchar" MaxLength="20" />
+    <Property Name="Niv_Usuario" Type="int" />
+    <Property Name="Est_Usuario" Type="int" />
+    <Property Name="Fec_Registro" Type="datetime" />
+    <Property Name="Usu_Registro" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_Tb_Asistencia_Socio_Tb_Asociado">
+    <End Role="Tb_Asociado" Type="Self.Tb_Asociado" Multiplicity="1" />
+    <End Role="Tb_Asistencia_Socio" Type="Self.Tb_Asistencia_Socio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Asociado">
+        <PropertyRef Name="cod_asociado" />
+      </Principal>
+      <Dependent Role="Tb_Asistencia_Socio">
+        <PropertyRef Name="cod_asociado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Asistencia_Socio_Tb_Evento">
+    <End Role="Tb_Evento" Type="Self.Tb_Evento" Multiplicity="1" />
+    <End Role="Tb_Asistencia_Socio" Type="Self.Tb_Asistencia_Socio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Evento">
+        <PropertyRef Name="id_evento" />
+      </Principal>
+      <Dependent Role="Tb_Asistencia_Socio">
+        <PropertyRef Name="id_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Asociado_Tb_Empresa">
+    <End Role="Tb_Empresa" Type="Self.Tb_Empresa" Multiplicity="0..1" />
+    <End Role="Tb_Asociado" Type="Self.Tb_Asociado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Empresa">
+        <PropertyRef Name="Id_Empresa" />
+      </Principal>
+      <Dependent Role="Tb_Asociado">
+        <PropertyRef Name="Id_Empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Asociado_Tb_Ubigeo">
+    <End Role="Tb_Ubigeo" Type="Self.Tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="Tb_Asociado" Type="Self.Tb_Asociado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Ubigeo">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Principal>
+      <Dependent Role="Tb_Asociado">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Curso_Tb_Especialidad">
+    <End Role="Tb_Especialidad" Type="Self.Tb_Especialidad" Multiplicity="0..1" />
+    <End Role="Tb_Curso" Type="Self.Tb_Curso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Especialidad">
+        <PropertyRef Name="IdEspecialidad" />
+      </Principal>
+      <Dependent Role="Tb_Curso">
+        <PropertyRef Name="IdEspecialidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Empresa_Tb_Ubigeo">
+    <End Role="Tb_Ubigeo" Type="Self.Tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="Tb_Empresa" Type="Self.Tb_Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Ubigeo">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Principal>
+      <Dependent Role="Tb_Empresa">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Especialidad_Expositor_Tb_Especialidad">
+    <End Role="Tb_Especialidad" Type="Self.Tb_Especialidad" Multiplicity="1" />
+    <End Role="Tb_Especialidad_Expositor" Type="Self.Tb_Especialidad_Expositor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Especialidad">
+        <PropertyRef Name="IdEspecialidad" />
+      </Principal>
+      <Dependent Role="Tb_Especialidad_Expositor">
+        <PropertyRef Name="IdEspecialidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Especialidad_Expositor_Tb_Expositor">
+    <End Role="Tb_Expositor" Type="Self.Tb_Expositor" Multiplicity="1" />
+    <End Role="Tb_Especialidad_Expositor" Type="Self.Tb_Especialidad_Expositor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Expositor">
+        <PropertyRef Name="Id_Expositor" />
+      </Principal>
+      <Dependent Role="Tb_Especialidad_Expositor">
+        <PropertyRef Name="Id_Expositor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Evento_Tb_Curso">
+    <End Role="Tb_Curso" Type="Self.Tb_Curso" Multiplicity="0..1" />
+    <End Role="Tb_Evento" Type="Self.Tb_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Curso">
+        <PropertyRef Name="cod_curso" />
+      </Principal>
+      <Dependent Role="Tb_Evento">
+        <PropertyRef Name="cod_curso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Evento_Tb_Empresa">
+    <End Role="Tb_Empresa" Type="Self.Tb_Empresa" Multiplicity="0..1" />
+    <End Role="Tb_Evento" Type="Self.Tb_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Empresa">
+        <PropertyRef Name="Id_Empresa" />
+      </Principal>
+      <Dependent Role="Tb_Evento">
+        <PropertyRef Name="Id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Evento_Tb_Expositor">
+    <End Role="Tb_Expositor" Type="Self.Tb_Expositor" Multiplicity="0..1" />
+    <End Role="Tb_Evento" Type="Self.Tb_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Expositor">
+        <PropertyRef Name="Id_Expositor" />
+      </Principal>
+      <Dependent Role="Tb_Evento">
+        <PropertyRef Name="Id_Expositor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Evento_Tb_Ubigeo">
+    <End Role="Tb_Ubigeo" Type="Self.Tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="Tb_Evento" Type="Self.Tb_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Ubigeo">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Principal>
+      <Dependent Role="Tb_Evento">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Expositor_Empresa_Tb_Empresa">
+    <End Role="Tb_Empresa" Type="Self.Tb_Empresa" Multiplicity="1" />
+    <End Role="Tb_Expositor_Empresa" Type="Self.Tb_Expositor_Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Empresa">
+        <PropertyRef Name="Id_Empresa" />
+      </Principal>
+      <Dependent Role="Tb_Expositor_Empresa">
+        <PropertyRef Name="Id_Empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Expositor_Empresa_Tb_Expositor">
+    <End Role="Tb_Expositor" Type="Self.Tb_Expositor" Multiplicity="1" />
+    <End Role="Tb_Expositor_Empresa" Type="Self.Tb_Expositor_Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Expositor">
+        <PropertyRef Name="Id_Expositor" />
+      </Principal>
+      <Dependent Role="Tb_Expositor_Empresa">
+        <PropertyRef Name="Id_Expositor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tb_Expositor_Tb_Ubigeo">
+    <End Role="Tb_Ubigeo" Type="Self.Tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="Tb_Expositor" Type="Self.Tb_Expositor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Ubigeo">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Principal>
+      <Dependent Role="Tb_Expositor">
+        <PropertyRef Name="Id_Ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="usp_ListarAsociados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="usp_ListarCursos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="usp_ObtenerCursosPorCategoria" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nivel_dificultad" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="usp_PresupuestoCuposPorMes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="LeonComputingModelStoreContainer">
+    <EntitySet Name="Tb_Asistencia_Socio" EntityType="Self.Tb_Asistencia_Socio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Asociado" EntityType="Self.Tb_Asociado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Curso" EntityType="Self.Tb_Curso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Empresa" EntityType="Self.Tb_Empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Especialidad" EntityType="Self.Tb_Especialidad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Especialidad_Expositor" EntityType="Self.Tb_Especialidad_Expositor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Evento" EntityType="Self.Tb_Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Expositor" EntityType="Self.Tb_Expositor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Expositor_Empresa" EntityType="Self.Tb_Expositor_Empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Ubigeo" EntityType="Self.Tb_Ubigeo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Usuario" EntityType="Self.Tb_Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Tb_Asistencia_Socio_Tb_Asociado" Association="Self.FK_Tb_Asistencia_Socio_Tb_Asociado">
+      <End Role="Tb_Asociado" EntitySet="Tb_Asociado" />
+      <End Role="Tb_Asistencia_Socio" EntitySet="Tb_Asistencia_Socio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Asistencia_Socio_Tb_Evento" Association="Self.FK_Tb_Asistencia_Socio_Tb_Evento">
+      <End Role="Tb_Evento" EntitySet="Tb_Evento" />
+      <End Role="Tb_Asistencia_Socio" EntitySet="Tb_Asistencia_Socio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Asociado_Tb_Empresa" Association="Self.FK_Tb_Asociado_Tb_Empresa">
+      <End Role="Tb_Empresa" EntitySet="Tb_Empresa" />
+      <End Role="Tb_Asociado" EntitySet="Tb_Asociado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Asociado_Tb_Ubigeo" Association="Self.FK_Tb_Asociado_Tb_Ubigeo">
+      <End Role="Tb_Ubigeo" EntitySet="Tb_Ubigeo" />
+      <End Role="Tb_Asociado" EntitySet="Tb_Asociado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Curso_Tb_Especialidad" Association="Self.FK_Tb_Curso_Tb_Especialidad">
+      <End Role="Tb_Especialidad" EntitySet="Tb_Especialidad" />
+      <End Role="Tb_Curso" EntitySet="Tb_Curso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Empresa_Tb_Ubigeo" Association="Self.FK_Tb_Empresa_Tb_Ubigeo">
+      <End Role="Tb_Ubigeo" EntitySet="Tb_Ubigeo" />
+      <End Role="Tb_Empresa" EntitySet="Tb_Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Especialidad_Expositor_Tb_Especialidad" Association="Self.FK_Tb_Especialidad_Expositor_Tb_Especialidad">
+      <End Role="Tb_Especialidad" EntitySet="Tb_Especialidad" />
+      <End Role="Tb_Especialidad_Expositor" EntitySet="Tb_Especialidad_Expositor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Especialidad_Expositor_Tb_Expositor" Association="Self.FK_Tb_Especialidad_Expositor_Tb_Expositor">
+      <End Role="Tb_Expositor" EntitySet="Tb_Expositor" />
+      <End Role="Tb_Especialidad_Expositor" EntitySet="Tb_Especialidad_Expositor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Evento_Tb_Curso" Association="Self.FK_Tb_Evento_Tb_Curso">
+      <End Role="Tb_Curso" EntitySet="Tb_Curso" />
+      <End Role="Tb_Evento" EntitySet="Tb_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Evento_Tb_Empresa" Association="Self.FK_Tb_Evento_Tb_Empresa">
+      <End Role="Tb_Empresa" EntitySet="Tb_Empresa" />
+      <End Role="Tb_Evento" EntitySet="Tb_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Evento_Tb_Expositor" Association="Self.FK_Tb_Evento_Tb_Expositor">
+      <End Role="Tb_Expositor" EntitySet="Tb_Expositor" />
+      <End Role="Tb_Evento" EntitySet="Tb_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Evento_Tb_Ubigeo" Association="Self.FK_Tb_Evento_Tb_Ubigeo">
+      <End Role="Tb_Ubigeo" EntitySet="Tb_Ubigeo" />
+      <End Role="Tb_Evento" EntitySet="Tb_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Expositor_Empresa_Tb_Empresa" Association="Self.FK_Tb_Expositor_Empresa_Tb_Empresa">
+      <End Role="Tb_Empresa" EntitySet="Tb_Empresa" />
+      <End Role="Tb_Expositor_Empresa" EntitySet="Tb_Expositor_Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Expositor_Empresa_Tb_Expositor" Association="Self.FK_Tb_Expositor_Empresa_Tb_Expositor">
+      <End Role="Tb_Expositor" EntitySet="Tb_Expositor" />
+      <End Role="Tb_Expositor_Empresa" EntitySet="Tb_Expositor_Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tb_Expositor_Tb_Ubigeo" Association="Self.FK_Tb_Expositor_Tb_Ubigeo">
+      <End Role="Tb_Ubigeo" EntitySet="Tb_Ubigeo" />
+      <End Role="Tb_Expositor" EntitySet="Tb_Expositor" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

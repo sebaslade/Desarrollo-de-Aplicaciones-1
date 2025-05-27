@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeonComputing_ADO\LeonComputing_ADO.csproj" />
+    <ProjectReference Include="..\LeonComputing_BE\LeonComputing_BE.csproj" />
+  </ItemGroup>
+
+</Project>

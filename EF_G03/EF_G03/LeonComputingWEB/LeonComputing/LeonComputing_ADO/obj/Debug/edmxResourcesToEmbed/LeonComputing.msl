@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LeonComputingModelStoreContainer" CdmEntityContainer="LeonComputingEntities">
+    <EntitySetMapping Name="Tb_Asociado">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Asociado">
+        <MappingFragment StoreEntitySet="Tb_Asociado">
+          <ScalarProperty Name="cod_asociado" ColumnName="cod_asociado" />
+          <ScalarProperty Name="ape_paterno" ColumnName="ape_paterno" />
+          <ScalarProperty Name="ape_materno" ColumnName="ape_materno" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="fecha_ingreso" ColumnName="fecha_ingreso" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="tlf_domicilio" ColumnName="tlf_domicilio" />
+          <ScalarProperty Name="tlf_celular" ColumnName="tlf_celular" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="fech_ult_capacitacion" ColumnName="fech_ult_capacitacion" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="Id_Empresa" ColumnName="Id_Empresa" />
+          <ScalarProperty Name="Id_Ubigeo" ColumnName="Id_Ubigeo" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="usuario_registro" ColumnName="usuario_registro" />
+          <ScalarProperty Name="estado_aso" ColumnName="estado_aso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Curso">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Curso">
+        <MappingFragment StoreEntitySet="Tb_Curso">
+          <ScalarProperty Name="cod_curso" ColumnName="cod_curso" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="horas_teoria" ColumnName="horas_teoria" />
+          <ScalarProperty Name="horas_practica" ColumnName="horas_practica" />
+          <ScalarProperty Name="nivel_dificultad" ColumnName="nivel_dificultad" />
+          <ScalarProperty Name="comentarios" ColumnName="comentarios" />
+          <ScalarProperty Name="IdEspecialidad" ColumnName="IdEspecialidad" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_registro" ColumnName="usuario_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_cur" ColumnName="estado_cur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Empresa">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Empresa">
+        <MappingFragment StoreEntitySet="Tb_Empresa">
+          <ScalarProperty Name="Id_Empresa" ColumnName="Id_Empresa" />
+          <ScalarProperty Name="Razon_Social" ColumnName="Razon_Social" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono1" ColumnName="Telefono1" />
+          <ScalarProperty Name="Telefono2" ColumnName="Telefono2" />
+          <ScalarProperty Name="UrlPagWeb" ColumnName="UrlPagWeb" />
+          <ScalarProperty Name="Id_Ubigeo" ColumnName="Id_Ubigeo" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_emp" ColumnName="estado_emp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Especialidad">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Especialidad">
+        <MappingFragment StoreEntitySet="Tb_Especialidad">
+          <ScalarProperty Name="IdEspecialidad" ColumnName="IdEspecialidad" />
+          <ScalarProperty Name="DescEspecialidad" ColumnName="DescEspecialidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Evento">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Evento">
+        <MappingFragment StoreEntitySet="Tb_Evento">
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+          <ScalarProperty Name="fecha_inicio" ColumnName="fecha_inicio" />
+          <ScalarProperty Name="fecha_fin" ColumnName="fecha_fin" />
+          <ScalarProperty Name="id_frecuencia" ColumnName="id_frecuencia" />
+          <ScalarProperty Name="id_turno" ColumnName="id_turno" />
+          <ScalarProperty Name="presupuesto_requerido" ColumnName="presupuesto_requerido" />
+          <ScalarProperty Name="direccion_evento" ColumnName="direccion_evento" />
+          <ScalarProperty Name="cupos_programados" ColumnName="cupos_programados" />
+          <ScalarProperty Name="Id_Expositor" ColumnName="Id_Expositor" />
+          <ScalarProperty Name="Id_Ubigeo" ColumnName="Id_Ubigeo" />
+          <ScalarProperty Name="cod_curso" ColumnName="cod_curso" />
+          <ScalarProperty Name="usuario_registro" ColumnName="usuario_registro" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_eve" ColumnName="estado_eve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Expositor">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Expositor">
+        <MappingFragment StoreEntitySet="Tb_Expositor">
+          <ScalarProperty Name="Id_Expositor" ColumnName="Id_Expositor" />
+          <ScalarProperty Name="Apellido_materno" ColumnName="Apellido_materno" />
+          <ScalarProperty Name="Apellido_paterno" ColumnName="Apellido_paterno" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Dirección" ColumnName="Dirección" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="E_mail" ColumnName="E_mail" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="Foto_Expositor" ColumnName="Foto_Expositor" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Id_Ubigeo" ColumnName="Id_Ubigeo" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_exp" ColumnName="estado_exp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Expositor_Empresa">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Expositor_Empresa">
+        <MappingFragment StoreEntitySet="Tb_Expositor_Empresa">
+          <ScalarProperty Name="Id_Expositor" ColumnName="Id_Expositor" />
+          <ScalarProperty Name="Id_Empresa" ColumnName="Id_Empresa" />
+          <ScalarProperty Name="Fecha_inicio" ColumnName="Fecha_inicio" />
+          <ScalarProperty Name="Fecha_finalizacion" ColumnName="Fecha_finalizacion" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Ubigeo">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Ubigeo">
+        <MappingFragment StoreEntitySet="Tb_Ubigeo">
+          <ScalarProperty Name="Id_Ubigeo" ColumnName="Id_Ubigeo" />
+          <ScalarProperty Name="IdDepa" ColumnName="IdDepa" />
+          <ScalarProperty Name="IdProv" ColumnName="IdProv" />
+          <ScalarProperty Name="IdDist" ColumnName="IdDist" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Usuario">
+      <EntityTypeMapping TypeName="LeonComputingModel.Tb_Usuario">
+        <MappingFragment StoreEntitySet="Tb_Usuario">
+          <ScalarProperty Name="Login_Usuario" ColumnName="Login_Usuario" />
+          <ScalarProperty Name="Pass_Usuario" ColumnName="Pass_Usuario" />
+          <ScalarProperty Name="Niv_Usuario" ColumnName="Niv_Usuario" />
+          <ScalarProperty Name="Est_Usuario" ColumnName="Est_Usuario" />
+          <ScalarProperty Name="Fec_Registro" ColumnName="Fec_Registro" />
+          <ScalarProperty Name="Usu_Registro" ColumnName="Usu_Registro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Tb_Asistencia_Socio" TypeName="LeonComputingModel.Tb_Asistencia_Socio" StoreEntitySet="Tb_Asistencia_Socio">
+      <EndProperty Name="Tb_Asociado">
+        <ScalarProperty Name="cod_asociado" ColumnName="cod_asociado" />
+      </EndProperty>
+      <EndProperty Name="Tb_Evento">
+        <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Tb_Especialidad_Expositor" TypeName="LeonComputingModel.Tb_Especialidad_Expositor" StoreEntitySet="Tb_Especialidad_Expositor">
+      <EndProperty Name="Tb_Especialidad">
+        <ScalarProperty Name="IdEspecialidad" ColumnName="IdEspecialidad" />
+      </EndProperty>
+      <EndProperty Name="Tb_Expositor">
+        <ScalarProperty Name="Id_Expositor" ColumnName="Id_Expositor" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="usp_PresupuestoCuposPorMes" FunctionName="LeonComputingModel.Store.usp_PresupuestoCuposPorMes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LeonComputingModel.usp_PresupuestoCuposPorMes_Result">
+          <ScalarProperty Name="MesNumero" ColumnName="MesNumero" />
+          <ScalarProperty Name="Mes" ColumnName="Mes" />
+          <ScalarProperty Name="Presupuesto_Requerido" ColumnName="Presupuesto Requerido" />
+          <ScalarProperty Name="Cupos_Programados" ColumnName="Cupos Programados" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ObtenerCursosPorCategoria" FunctionName="LeonComputingModel.Store.usp_ObtenerCursosPorCategoria">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LeonComputingModel.usp_ObtenerCursosPorCategoria_Result">
+          <ScalarProperty Name="cod_curso" ColumnName="cod_curso" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="horas_teoria" ColumnName="horas_teoria" />
+          <ScalarProperty Name="horas_practica" ColumnName="horas_practica" />
+          <ScalarProperty Name="nivel_dificultad" ColumnName="nivel_dificultad" />
+          <ScalarProperty Name="comentarios" ColumnName="comentarios" />
+          <ScalarProperty Name="IdEspecialidad" ColumnName="IdEspecialidad" />
+          <ScalarProperty Name="DescEspecialidad" ColumnName="DescEspecialidad" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_registro" ColumnName="usuario_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_cur" ColumnName="estado_cur" />
+          <ScalarProperty Name="tipo_estado" ColumnName="tipo_estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarCursos" FunctionName="LeonComputingModel.Store.usp_ListarCursos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LeonComputingModel.usp_ListarCursos_Result">
+          <ScalarProperty Name="cod_curso" ColumnName="cod_curso" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="horas_teoria" ColumnName="horas_teoria" />
+          <ScalarProperty Name="horas_practica" ColumnName="horas_practica" />
+          <ScalarProperty Name="nivel_dificultad" ColumnName="nivel_dificultad" />
+          <ScalarProperty Name="comentarios" ColumnName="comentarios" />
+          <ScalarProperty Name="IdEspecialidad" ColumnName="IdEspecialidad" />
+          <ScalarProperty Name="DescEspecialidad" ColumnName="DescEspecialidad" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_registro" ColumnName="usuario_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_cur" ColumnName="estado_cur" />
+          <ScalarProperty Name="tipo_estado" ColumnName="tipo_estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarAsociados" FunctionName="LeonComputingModel.Store.usp_ListarAsociados">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LeonComputingModel.usp_ListarAsociados_Result">
+          <ScalarProperty Name="cod_asociado" ColumnName="cod_asociado" />
+          <ScalarProperty Name="ape_paterno" ColumnName="ape_paterno" />
+          <ScalarProperty Name="ape_materno" ColumnName="ape_materno" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="tlf_domicilio" ColumnName="tlf_domicilio" />
+          <ScalarProperty Name="tlf_celular" ColumnName="tlf_celular" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="Id_Ubigeo" ColumnName="Id_Ubigeo" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="Id_Empresa" ColumnName="Id_Empresa" />
+          <ScalarProperty Name="Razon_Social" ColumnName="Razon_Social" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="usuario_ult_modificacion" ColumnName="usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_ult_modificacion" ColumnName="fecha_ult_modificacion" />
+          <ScalarProperty Name="estado_aso" ColumnName="estado_aso" />
+          <ScalarProperty Name="tipo_estado" ColumnName="tipo_estado" />
+          <ScalarProperty Name="usuario_registro" ColumnName="usuario_registro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
